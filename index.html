@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Annotation</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div id ="outerContainer" class="container">
+	
+	<div id ="displayBox" class="container">
+		<ul class="list-group prevList">
+
+		</ul>
+	</div><!--end of displayBox-->
+	
+	<div id ="editBox" class="container">
+		PlayerID: <span id ="playerID" class ="note"></span> Role: <span id ="role" class="note"></span>
+		<textarea id="dialogueField" class="form-control dialogueBox"></textarea>
+	</div><!--end of editBox-->
+	
+	<div id ="buttonGroup" class="container">
+		<table class = "table table-bordered">
+			<thead>
+				<tr>
+					<td><button type="button" id="A-D" class="btn btn-info btn-lg">Action-Directive</button></td>
+					<td><button type="button" id="Q-C" class="btn btn-info btn-lg">Clarification-Question</button></td>
+					<td><button type="button" id="A-N" class="btn btn-info btn-lg">No-Answer</button></td>
+					<td><button type="button" id="#" class="btn btn-info btn-lg">#</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" id="ACK" class="btn btn-info btn-lg">Acknowledgement</button></td>
+					<td><button type="button" id="Q-YN" class="btn btn-info btn-lg">Yes-No-Question</button></td>
+					<td><button type="button" id="A-Y" class="btn btn-info btn-lg">Yes-Anwser</button></td>
+					<td><button type="button" id="#" class="btn btn-info btn-lg">#</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" id="As-I" class="btn btn-info btn-lg">Assert-Identified</button></td>
+					<td><button type="button" id="Q-Wh" class="btn btn-info btn-lg">Wh-Question</button></td>
+					<td><button type="button" id="#" class="btn btn-info btn-lg">#</button></td>
+					<td><button type="button" id="G" class="btn btn-info btn-lg">Other</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" id="As-M" class="btn btn-info btn-lg">Assertion-Matcher</button></td>
+					<td><button type="button" id="Q-D" class="btn btn-info btn-lg">Disjunctive-Question</button></td>
+					<td><button type="button" id="#" class="btn btn-info btn-lg">#</button></td>
+					<td><button type="button" id="CON" class="btn btn-info btn-lg">Confliction</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" id="As-S" class="btn btn-info btn-lg">Assert-Skipping</button></td>
+					<td><button type="button" id="Rq-S" class="btn btn-info btn-lg">Request-Skip</button></td>
+					<td><button type="button" id="ST" class="btn btn-info btn-lg">Self-Talk</button></td>
+					<td><button type="button" id="#" class="btn btn-info btn-lg">#</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" id="BC" class="btn btn-info btn-lg">Backchannel</button></td>
+					<td><button type="button" id="D-M" class="btn btn-info btn-lg">Disclose Marker</button></td>
+					<td><button type="button" id="H" class="btn btn-info btn-lg">Hedge</button></td>
+					<td><button type="button" id="#" class="btn btn-info btn-lg">#</button></td>
+				</tr>
+				<tr>
+					<td><button type="button" id="D-T" class="btn btn-info btn-lg">Describe-Target</button></td>
+					<td><button type="button" id="EC" class="btn btn-info btn-lg">Echo-Confirmation</button></td>
+					<td><button type="button" id="P" class="btn btn-info btn-lg">Pause</button></td>
+					<td><button type="button" id="GO" class="btn btn-info btn-lg">Confirm</button></td>
+				</tr>
+			</thead>
+		</table>
+	</div><!--end of buttonGroup-->
+</div><!--end of outerContainer-->
+
+</body>
+</html>

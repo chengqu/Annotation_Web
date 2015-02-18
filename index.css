@@ -1,0 +1,16 @@
+.prevList{
+	height:20%;
+	overflow:scroll;
+}
+
+.dialogueBox{
+	height:20%;
+}
+
+.btnGroup{
+	height:50%;
+}
+
+.note{
+	width: 100px;
+}
